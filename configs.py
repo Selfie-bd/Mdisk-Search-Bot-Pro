@@ -22,7 +22,7 @@ class Config(object):
     START_PHOTO = os.getenv("START_PHOTO")
     HOME_TEXT = os.getenv("HOME_TEXT")
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", -1001821753399)
-    DATABASE_URL = os.getenv("DATABASE_URL", "")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://erichdaniken:erichdaniken@cluster0.c13qk.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""-1001859746470))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "False")
